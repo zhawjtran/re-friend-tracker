@@ -428,7 +428,7 @@ export class GuiModel {
                                 "form": "ActivityForm"
                             }
                         }
-                        
+
                     ]
                 },
 
@@ -442,7 +442,6 @@ export class GuiModel {
                         {
                             "type": "newButton",
                             "name": "NewGroup",
-                           // "icon": "fa-weixin",
                             "icon": "fa-user-friends",
                             "color": "green",
                             "form": {
@@ -452,12 +451,10 @@ export class GuiModel {
                         //new List
                         {
                             "type": "list",
-                            //"icon": "fa-weixin",
                             "icon": "fa-user-friends",
                             "color": "wisteria",
                             "search": true,
                             "url": "/group",
-                            //"page": "singlegrouppage"
                             "form": {
                                 "form": "GroupForm"
                         }
@@ -465,37 +462,6 @@ export class GuiModel {
 
                     ] 
                 },
-
-                //Single-Group-Page
-                /*
-                {
-                    "id": "singlegrouppage",
-                    "elementList": [
-                        {
-                            "type": "backbutton",
-                        },
-                        {
-                            "type": "button",
-                            "name": "EditGroup",
-                            "icon": "fa-binoculars",
-                            "color": "green",
-                            "form": {
-                                "form": "GroupForm"
-                            }
-                        },
-                        {
-                            "type": "list",
-                            "icon": "fa-binoculars",
-                            "color": "blue",
-                            "search": true,
-                            "url": "/group/:friendkey/friend",
-                            "form": {
-                                "form": "GroupForm"
-                            }
-                        },
-                    ]
-                },
-                */
 
                 //Activity-Page
                 {
