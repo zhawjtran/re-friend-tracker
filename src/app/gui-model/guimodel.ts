@@ -514,13 +514,45 @@ export class GuiModel {
                             "color": "wisteria",
                             "search": true,
                             "url": "/group",
+                            //"page": "singlegrouppage"
                             "form": {
-                                  "form": "GroupForm"
-                            }
+                                "form": "GroupForm"
+                        }
                       },
 
                     ] 
                 },
+
+                //Single-Group-Page
+                /*
+                {
+                    "id": "singlegrouppage",
+                    "elementList": [
+                        {
+                            "type": "backbutton",
+                        },
+                        {
+                            "type": "button",
+                            "name": "EditGroup",
+                            "icon": "fa-binoculars",
+                            "color": "green",
+                            "form": {
+                                "form": "GroupForm"
+                            }
+                        },
+                        {
+                            "type": "list",
+                            "icon": "fa-binoculars",
+                            "color": "blue",
+                            "search": true,
+                            "url": "/group/:friendkey/friend",
+                            "form": {
+                                "form": "GroupForm"
+                            }
+                        },
+                    ]
+                },
+                */
 
                 //Activity-Page
                 {
@@ -577,6 +609,8 @@ export class GuiModel {
                         },
                     ]
                 },
+
+
 
 
 
