@@ -356,7 +356,6 @@ export class GuiModel {
                                 "form": "ActivityForm"
                             }
                         }
-                        
                     ]
                 },
 
@@ -384,10 +383,6 @@ export class GuiModel {
                             "search": true,
                             "url": "/location",
                             "page": "singlelocationpage",
-                            //"page": {
-                                //"form": "LocationForm"
-                            //    "page": "LocationForm"
-                            
                         }
                     ]
                 },
