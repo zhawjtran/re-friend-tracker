@@ -158,6 +158,37 @@ export class GuiModel {
                     ]
                 },
                 {
+                    /*Add Friend Form*/
+                    "id": "AddFriendForm",
+                    "title": "Friend",
+                    "url": "/activity/:activityKey/friend",
+                    /*Attributes for Add Friend Form*/
+                    "formFieldList": [
+                        {
+                            "id":   "friend",
+                            "type": "autocomplete",
+                            "name": "Friend",
+                            "url": "/friend",
+                            "defaultKey": "friendKey",
+                            "readonly": true,
+                            "form": "FriendForm",
+                            "width": 2
+                        },
+                        {
+                            "type": "deleteButton",
+                            "name": "Delete"
+                        },
+                        {
+                            "type": "cancelButton",
+                            "name": "Cancel"
+                        },
+                        {
+                            "type": "okButton",
+                            "name": "Ok"
+                        }
+                    ]
+                },
+                {
                     /*Group Form*/
                     "id": "GroupForm",
                     "title": "Group",
@@ -339,7 +370,7 @@ export class GuiModel {
                             "icon": "fa-binoculars",
                             "color": "green",
                             
-                            "url": "/friend/:friendKey/activity",
+                            //"url": "/friend/:friendKey/activity",
                             
                             "form": {
                                 "form": "AddActivityForm"
@@ -403,6 +434,8 @@ export class GuiModel {
                                 "form": "LocationForm"
                             }
                         },
+                        // new requirement, add new/existing activy to a location
+
                         {
                             "type": "list",
                             "icon": "fa-binoculars",
@@ -491,15 +524,29 @@ export class GuiModel {
                                 "form": "ActivityForm"
                             }
                         },
+                        //Add existing fried to activity
+                        {
+                            "type": "newButton",
+                            "name": "NewFriend",
+                            "icon": "fa-user-friends",
+                            "color": "green",
+                            "form": {
+                                    "form": "AddFriendForm"
+                            }
+                        },
                         {
                             "type": "list",
                             "icon": "fa-binoculars",
                             "color": "blue",
                             "search": true,
                             "url": "/activity/:activityKey/friend",
+
+                            //didn't figuret out how to edit existing activity with the members
+                            /*
                             "form": {
                                 "form": "ActivityForm"
                             }
+                            */
                         },
                     ]
                 },
