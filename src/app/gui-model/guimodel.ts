@@ -399,27 +399,12 @@ export class GuiModel {
                             "name": "EditLocation",
                             "icon": "fa-user-graduate",
                             "color": "green",
-                            //"url": "/location/:locationKey/activity",
                             "form": {
                                 "form": "LocationForm"
                             }
                         },
-                        /*
-                        {
-                            "type": "button",
-                            "name": "AddActivity",
-                            "icon": "fa-binoculars",
-                            "color": "green",
-                            
-                            //"url": "/friend",
-                
-                            "form": {
-                                "form": "AddActivityForm"
-                            }
-                        },*/
                         {
                             "type": "list",
-                            //"icon": "fa-user",
                             "icon": "fa-binoculars",
                             "color": "blue",
                             "search": true,
