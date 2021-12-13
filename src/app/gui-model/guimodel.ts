@@ -337,7 +337,6 @@ export class GuiModel {
                         },
                         {
                             "type": "list",
-                            //"icon": "fa-user",
                             "icon": "fa-user-graduate",
                             "color": "blue",
                             "search": true,
@@ -365,20 +364,16 @@ export class GuiModel {
                             }
                         },
                         {
-                            "type": "button",
+                            "type": "newButton",
                             "name": "AddActivity",
                             "icon": "fa-binoculars",
                             "color": "green",
-                            
-                            //"url": "/friend/:friendKey/activity",
-                            
                             "form": {
                                 "form": "AddActivityForm"
                             }
                         },
                         {
                             "type": "list",
-                            //"icon": "fa-user",
                             "icon": "fa-binoculars",
                             "color": "blue",
                             "search": true,
