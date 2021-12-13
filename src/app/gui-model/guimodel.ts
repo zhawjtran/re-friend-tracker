@@ -536,7 +536,7 @@ export class GuiModel {
                         },
                         {
                             "type": "list",
-                            "icon": "fa-binoculars",
+                            "icon": "fa-user-friends",
                             "color": "blue",
                             "search": true,
                             "url": "/activity/:activityKey/friend",
