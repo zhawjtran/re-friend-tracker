@@ -6,7 +6,7 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
-            "title": "Requirements Engineering - John's Tracker",
+            "title": "Requirements Engineering - John's Friend Tracker",
             //***********************************/
             //Attibutes
             "formList": [
