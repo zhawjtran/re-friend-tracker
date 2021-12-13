@@ -319,7 +319,7 @@ export class GuiModel {
                     ]
                 },
 
-                //Friends-Page
+                //Friends-Page 
                 {
                     "id": "friendspage",
                     "elementList": [
@@ -539,7 +539,7 @@ export class GuiModel {
                             //didn't figuret out how to edit existing activity with the members
                             /*
                             "form": {
-                                "form": "ActivityForm"
+                                "form": "ActivityForm".  
                             }
                             */
                         },
